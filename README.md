@@ -1,5 +1,5 @@
 # BigMart-Sales-Prediction-using-Machine-Learning
-This repository demonstrates a complete data engineering and machine learning pipeline involving both loan and retail datasets.
+This repository demonstrates a complete data engineering and machine learning pipeline involving retail datasets.
 
 Data Loading:
 

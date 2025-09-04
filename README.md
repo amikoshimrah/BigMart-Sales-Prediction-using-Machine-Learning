@@ -3,11 +3,11 @@ This repository demonstrates a complete data engineering and machine learning pi
 
 Data Loading:
 
-Extract loan-related datasets (applicant_info, financial_info, loan_info) from JSON.
+Extract data (item_info, outlet_info, sales_info) from xml.
 
 Clean and preprocess data for missing values.
 
-Create a MySQL database (loan_db) and load cleaned tables.
+Create a MySQL database (bigmart) and load tables.
 
 Retail Sales Data:
 

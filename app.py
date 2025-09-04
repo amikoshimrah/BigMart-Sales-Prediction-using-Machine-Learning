@@ -2,6 +2,13 @@ import streamlit as st
 import pandas as pd
 import pickle
 
+import sklearn.compose._column_transformer as ct
+
+if not hasattr(ct, "_RemainderColsList"):
+    class _RemainderColsList(list):
+        pass
+    ct._RemainderColsList = _RemainderColsList
+
 # === Load Model and Version Info from Pickle ===
 with open("bigmart_best_model.pkl", "rb") as f:
     model, sklearn_version = pickle.load(f)
